@@ -12,22 +12,14 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Passionate Web Developer
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+             I’m a passionate and dedicated developer with a strong interest in building user-friendly web applications. I specialize in front-end development and enjoy solving problems using Data Structures and Algorithms. With a constant drive to learn and grow, I’m currently working on projects that sharpen my skills in modern technologies like React, JavaScript, and the MERN stack. I believe in writing clean, efficient code and love collaborating on innovative tech solutions.
             </p>
 
-            <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
-            </p>
-
+          
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">
                 {" "}
@@ -72,21 +64,7 @@ export const AboutSection = () => {
                 </div>
               </div>
             </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>

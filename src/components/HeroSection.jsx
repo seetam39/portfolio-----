@@ -12,24 +12,22 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Pedro
+              SEETAM
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Machado
+              DASS
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+             — a passionate developer focused on frontend development and Data Structures & Algorithms. I enjoy building clean, user-friendly interfaces and solving real-world problems through code. I'm constantly learning and growing, always looking for new challenges and opportunities to improve.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+            {/* <a href="#projects" className="cosmic-button">
               View My Work
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
